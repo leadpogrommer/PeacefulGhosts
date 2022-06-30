@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
     <GameDir>C:\Program Files (x86)\Steam\steamapps\common\Outer Wilds</GameDir>
-    <OwmlDir>D:\libs\Downloads\OWML</OwmlDir>
+    <OwmlDir>C:\Users\Ilya\AppData\Roaming\OuterWildsModManager\OWML</OwmlDir>
     <ModUniqueName>Leadpogrommer.PeacefulGhosts</ModUniqueName>
   </PropertyGroup>
 </Project>
