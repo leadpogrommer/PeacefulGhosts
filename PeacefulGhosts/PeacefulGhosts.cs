@@ -59,7 +59,7 @@ namespace PeacefulGhosts
 
         private void Start()
         {
-            ModHelper.Logger.Log($"Start of {nameof(PeacefulGhosts)}");
+            ModHelper.Console.WriteLine($"Start of {nameof(PeacefulGhosts)}");
         }
     }
 }
