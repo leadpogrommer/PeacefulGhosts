@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectView>ProjectFiles</ProjectView>
-    <GameDir>C:\Program Files (x86)\Steam\steamapps\common\Outer Wilds</GameDir>
-    <OwmlDir>C:\Users\Ilya\AppData\Roaming\OuterWildsModManager\OWML</OwmlDir>
-    <ModUniqueName>Leadpogrommer.PeacefulGhosts</ModUniqueName>
+<Project>
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+    <OutputPath>$(AppData)/OuterWildsModManager/OWML/Mods/Leadpogrommer.PeacefulGhosts</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(OS)' == 'Unix'">
+    <OutputPath>$(HOME)/.local/share/OuterWildsModManager/OWML/Mods/Leadpogrommer.PeacefulGhosts</OutputPath>
   </PropertyGroup>
 </Project>
